@@ -30,13 +30,12 @@ while True:
     word_choice = random.choice(f_contents).lstrip()
     word_choice_length = len(word_choice)
     individual_letters = list(word_choice)
-    print(f'Word = {word_choice}, Length = {word_choice_length}')
     current_score = []
     for x in range(word_choice_length):
         current_score.append('_')
     current_stage = 0
     print("Game Setup")
-    #print(clear)
+    print(clear)
 
     print("HOW TO PLAY")
     print("Guess a letter and then press the enter key")
